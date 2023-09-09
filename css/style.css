@@ -1,0 +1,52 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+.feature-icon{
+  color: #ff4c68;
+  height: 50px; width: 50px; border-radius: 10px;
+  background-color:#a9a9b8 !important
+  
+}
+.btn{
+  margin: 20px;
+}
+.LocoLD{
+  height: 100px; width: 100px;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+.Loco{
+  margin: 30px;
+}
+.sponsor{
+  height: 30px;
+}
+.row >*{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
